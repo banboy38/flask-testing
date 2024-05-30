@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello, World!'
+    return [{'name':"Anirban"}, {'name':"Rahul"}, {'name':"Tanya"}, {'name':"Indresh"}, {'name':"Golu"}], 200
 
 @app.route('/about')
 def about():
